@@ -27,4 +27,6 @@ public class Calculator extends GenericCalculator<Number>
 	 	{
 			return(num1.doubleValue() / num2.doubleValue());
 	 	}
+		
+//		"/lsknfkcsd nkfncds kln"
 	}
