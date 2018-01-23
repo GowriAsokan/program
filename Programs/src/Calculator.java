@@ -13,6 +13,7 @@ public class Calculator extends GenericCalculator<Number>
 		{
 			return(num1.doubleValue() + num2.doubleValue());
 			
+			
 		}
 		public Number subtract(Number num1, Number num2)
 		{
