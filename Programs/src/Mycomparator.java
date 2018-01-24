@@ -11,9 +11,9 @@ public class Mycomparator implements Comparator{
 		
 	//int ratingResult = obj2.getRating().compareTo(obj1.getRating());
 	
-	int ratingResult = h2.getRating().compareTo(h1.getRating());
+		Integer ratingResult = h2.getRating().compareTo(h1.getRating());
 
-	int costResult = h1.getCost().compareTo(h2.getCost());
+		Integer costResult = h1.getCost().compareTo(h2.getCost());
 	
 	if(ratingResult == 0){
 		return costResult;

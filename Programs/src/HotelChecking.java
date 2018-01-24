@@ -28,7 +28,12 @@ public class HotelChecking
 			
 				HotelPOJO h = (HotelPOJO)iter.next();
 			System.out.println("The hotelname is" + h.getName() +"rating is " +h.getRating()+"and cost is"+h.getCost());
-			//
+			
+//			The hotelname isHotel 1rating is 8and cost is500
+//			The hotelname isHotel 4rating is 8and cost is550
+//			The hotelname isHotel 5rating is 7and cost is800
+//			The hotelname isHotel 3rating is 6and cost is450
+//			The hotelname isHotel 2rating is 5and cost is1000
 		}
 		
 	}
