@@ -11,12 +11,11 @@ public class FibonacciSeries
 	System.out.println("The fabonacci series is" + a + " "+b);
 		for(int i=0;i<10;i++)
 			{
-			 	temp = a+b;
+			 temp = a+b;
 			 System.out.println(temp);
 			 	a=b;
 			 	b=temp;
 			}
-	
 		}
 	}
 

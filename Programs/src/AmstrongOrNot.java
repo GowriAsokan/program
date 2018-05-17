@@ -20,7 +20,7 @@ public class AmstrongOrNot {
 				number= number/10;
 		
 			}
-		
+		System.out.println(sum);
 		if(sum == n)
 		{
 			System.out.println("It is a amstrong number");

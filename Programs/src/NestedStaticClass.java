@@ -20,7 +20,7 @@ static class Innerclass
 			
 			NestedStaticClass.Innerclass n= new NestedStaticClass.Innerclass();
 			n.msg();
-		//n.message()
+		//n.message() 
 			NestedStaticClass.Innerclass.message();
 		}
 	}
